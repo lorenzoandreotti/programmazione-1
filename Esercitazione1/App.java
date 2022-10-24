@@ -32,6 +32,7 @@ public class App {
 		base2 = in.nextInt();
 		System.out.print("Immettere l' aletezza: ");
 		altezzaTrapezio = in.nextInt();
+		in.close();
 		areaTrapezio = (base1 + base2) * altezzaTrapezio / 2;
 		System.out.println("L'area del trapezio con baase: " + base1 + base2 + " ealtezza:  " + altezzaTrapezio + " è: "
 				+ areaTrapezio);
